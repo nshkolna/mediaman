@@ -1,0 +1,36 @@
+{
+  "name": "mediaman",
+  "version": "1.0.0",
+  "description": "adaptive layout training",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nshkolna/mediaman.git"
+  },
+  "author": "Natali Shkolna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nshkolna/mediaman/issues"
+  },
+  "homepage": "https://github.com/nshkolna/mediaman#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-pug": "^4.0.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.1",
+    "gulp.spritesmith": "^6.9.0",
+    "rimraf": "^2.6.3"
+  },
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "normalize.scss": "^0.1.0"
+  }
+}
