@@ -1,0 +1,23 @@
+.nav{
+
+
+	&__link{
+		font-family: $ff-header-menu;
+		font-size: 1rem;
+		color: #696e6e;
+		display: inline-block;
+		margin-left:20px;
+
+		transition: 0.3s;	
+
+		&--active{
+			color:#0e96b8;
+		}
+
+		&:hover{
+		
+			color:#1eaac3;
+			border-bottom: 2px solid #1eaac3;
+		}
+	}
+}

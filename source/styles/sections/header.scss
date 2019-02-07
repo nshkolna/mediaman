@@ -1,0 +1,83 @@
+.header{
+
+	margin: 30px 0;
+
+	.container{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		justify-content: space-between;
+	}
+
+	&__left{
+		display: flex;
+		flex-direction: row;
+	}
+
+	&__right{
+		display: flex;
+		flex-direction: column;
+
+		&-top{
+			
+			margin-bottom: 25px;
+
+			.contacts{
+				float: right;	
+				
+				.contact__icon{
+					background: #b6bbbb;
+					color:#fff;
+					font-size:1.25rem;
+					border-radius: 50%;
+					padding:7px;
+					margin-left: 5px;
+
+					transition: 0.3s;
+				}
+
+				.contact__icon:hover{
+					background: #83e1f5;
+				}
+
+				.facebook-icon{
+					.contact__icon{
+						width: 35px;
+						padding-left:11px;
+					}
+				}
+
+			}
+		}
+
+	}
+
+}
+.logo{
+	display: flex;
+	border-right: 1px solid #fff;
+	padding: 10px 20px 10px 0;
+}
+.name{
+	display: flex;
+	flex-direction: column;
+	padding-left:20px;
+	
+	&__company{
+		font-family: $ff-name-company;
+		font-size: 2.0625rem;
+		color:#607278;
+		text-shadow: 2px 2px 1px #fff;
+	}
+
+	&__slogan{
+		font-family: $ff-name-slogan;
+		font-size: 1rem;
+		color:#1eaac3;
+		text-shadow: 1px 1px 1px #fff;
+	}
+	
+}
+
+
+
