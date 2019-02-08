@@ -7,6 +7,9 @@
 		flex-direction: row;
 		flex-wrap: nowrap;
 		justify-content: space-between;
+		padding-bottom: 30px;
+		border-bottom:1px solid #c8c8c8;
+		box-shadow: 0 1px 1px #fff;
 	}
 
 	&__left{
@@ -20,7 +23,7 @@
 
 		&-top{
 			
-			margin-bottom: 25px;
+			margin-bottom: 16px;
 
 			.contacts{
 				float: right;	
@@ -68,6 +71,7 @@
 		font-size: 2.0625rem;
 		color:#607278;
 		text-shadow: 2px 2px 1px #fff;
+		padding-top: 4px;
 	}
 
 	&__slogan{
