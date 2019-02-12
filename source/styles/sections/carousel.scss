@@ -1,0 +1,39 @@
+.carousel{
+	@include centerer-x();
+
+	padding-bottom: 60px;
+	@include line();
+
+	&-control-prev-icon, &-control-next-icon {
+		color: #81dff3
+	}
+
+	&-item h5{
+		font-family:$ff-slide-title;
+		font-size: 1.5rem;
+		color:#1eaac3;
+
+	}
+
+	&-item p{
+		font-family: $ff-slide-desc;
+		font-size: 1rem;
+		color: #696e6e;
+	}
+
+	&-indicators{
+
+		bottom:10px;
+
+		li{
+			height: 10px;
+			width: 10px;
+			border-radius: 50%;
+			background-color: #b5b9b9;
+		}
+	
+		li.active{
+			background-color: #81dff3
+		}
+	}
+}

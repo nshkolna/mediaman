@@ -8,8 +8,7 @@
 		flex-wrap: nowrap;
 		justify-content: space-between;
 		padding-bottom: 30px;
-		border-bottom:1px solid #c8c8c8;
-		box-shadow: 0 1px 1px #fff;
+		@include line();
 	}
 
 	&__left{
