@@ -1,6 +1,10 @@
+.carousel__container{
+
+	position:relative;
+	min-height: 350px;
+}
 .carousel{
 	@include centerer-x();
-
 	padding-bottom: 60px;
 	@include line();
 

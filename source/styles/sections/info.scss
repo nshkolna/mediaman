@@ -1,0 +1,38 @@
+.info{
+	display: flex;
+	flex-direction: row;
+	margin-bottom:30px;
+
+	&__left-img{
+		padding:0 20px 0 0;
+	}
+
+	&__left, &__right{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		flex:0 1 50%;
+		line-height: 1.2rem;
+	}
+
+	&__left{
+		padding-right: 20px;
+		border-right:2px solid #66d4e8;
+	}
+
+	&__right{
+		padding-left:20px;
+	}
+
+	&-text h3{
+		font-family: $ff-info-title;
+		color: $color-info-title;
+		size: 1.375rem;
+	}
+
+	&-desc{
+		font-family: $ff-main;
+		color: $color-main;
+		font-size:0.8125rem;
+	}
+}
