@@ -24,32 +24,6 @@
 			
 			margin-bottom: 16px;
 
-			.contacts{
-				float: right;	
-				
-				.contact__icon{
-					background: #b6bbbb;
-					color:#fff;
-					font-size:1.25rem;
-					border-radius: 50%;
-					padding:7px;
-					margin-left: 5px;
-
-					transition: 0.3s;
-				}
-
-				.contact__icon:hover{
-					background: #83e1f5;
-				}
-
-				.facebook-icon{
-					.contact__icon{
-						width: 35px;
-						padding-left:11px;
-					}
-				}
-
-			}
 		}
 
 	}

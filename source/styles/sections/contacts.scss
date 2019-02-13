@@ -1,0 +1,50 @@
+.contacts{
+	float: right;	
+}
+
+.contact{
+
+	&__icon{
+		background: #b6bbbb;
+		color:#fff;
+		font-size:1.25rem;
+		border-radius: 50%;
+		padding:7px;
+		margin-left: 5px;
+
+		transition: 0.3s;
+
+		&:hover{
+			background: #83e1f5;
+		}
+	}
+
+	&__text{
+		color: $color-main;
+		padding:0 0 0 7px;
+		
+		&:hover{
+			color:$color-contact-hover;
+		}
+
+	}
+}
+
+.facebook-icon{
+	.contact__icon{
+		width: 35px;
+		padding-left:11px;
+	}
+}
+
+.info__bottom .contact__icon{
+	height: 40px;
+	width: 40px;
+	font-size: 1.5rem;
+    text-align: center;
+    padding-top: 8px;
+}
+
+.info__bottom .facebook-icon .contact__icon{
+	padding-left:6px;
+}

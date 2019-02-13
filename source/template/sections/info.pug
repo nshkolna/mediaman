@@ -3,8 +3,24 @@ section.info.container
 		.info__left-img: img(src="../images/photo.png" alt="Photo")
 		.info-text
 			h3 My name is Ivan Ivanov
-			.info-desc When constructing the form you can see I was able to  new HTML5 form elements to improve the form functionality. Notice for the text inputs I use the Placeholder attribute, this displays text in the field until the field is focused.
-	.info__right
+			.info-desc When constructing the form you can see I was able to  #[a(href="#") use some] new HTML5 form elements to improve the form functionality. Notice for the text inputs I use the #[a(href="#") Placeholder] attribute, this displays text in the field until the field is focused.
+	.info__right.clearfix
 		.info-text
 			h3 Services
 			.info-desc Digital marketing and social media strategies Interactive projects management/development Flash animation and scripting Digital environment solutions (Augmented Reality, QR/RFID/NFC, Interactive Installations, Mechatronics, Electronics engineering etc.) Front-end design and development, UI design Photography (product, panoramic, timelapse, macro, nature etc.) Product design and 3D modeling
+	.info__bottom
+		.info__bottom-left
+			a.email-icon(href="mailto:ivan@gmail.com")
+				i.fa.fa-envelope.contact__icon(aria-hidden="true")
+				span.contact__text ivan@gmail.com
+			a.tel-icon(href="tel:+306300000")
+				i.fa.fa-mobile.contact__icon(aria-hidden="true")
+				span.contact__text +380672223344
+		
+		.info__bottom-right
+			a.twitter-icon(href="https://twitter.com")
+				i.fa.fa-twitter.contact__icon(aria-hidden="true")
+			a.google-icon(href="plus.google.com")
+				i.fa.fa-google-plus.contact__icon(aria-hidden="true")
+			a.facebook-icon(href="facebook.com")
+				i.fa.fa-facebook.contact__icon(aria-hidden="true")
