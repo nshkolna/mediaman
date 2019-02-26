@@ -7,9 +7,11 @@
 @import "global/vars";
 @import "global/base";
 @import "global/common";
+@import "global/buttons.scss";
 
 @import "sections/header.scss";
 @import "sections/contacts.scss";
 @import "sections/nav.scss";
 @import "sections/carousel.scss";
 @import "sections/info.scss";
+@import "sections/posts.scss";
