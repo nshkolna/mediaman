@@ -1,0 +1,7 @@
+- var img = ["kievstar", "life", "canon", "uniliver", "kraft", "AVK", "beefeater", "hortista", "mirgorodskaya", "TNK", "skoda", "alpari", "everest", "winston", "edimax", "DC", "bausch", "last"]
+section.clients.container
+	h1 Clients
+	.client__content
+		each item in img
+			.client
+				a(hfer="#"): img(src="images/clients/"+item+".png" alt="picture")
