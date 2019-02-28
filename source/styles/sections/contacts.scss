@@ -1,6 +1,10 @@
 .contacts{
 	float: right;	
 }
+.email-icon:hover .contact__icon{
+	background-color: #83e1f5;
+}
+.tel-icon .contact__text:hover{color:$color-main; cursor:default;}
 
 .contact{
 
@@ -30,7 +34,12 @@
 		}
 
 	}
+
+	&:hover &__icon{
+		background: #83e1f5;
+	}
 }
+
 
 .facebook-icon{
 	.contact__icon{
@@ -53,9 +62,15 @@
 
 .fa.fa-mobile{
 	padding-top:4px;
+	background-color: #3fc2d9;
 
 	&:before{
 		font-size: 2.2rem;
    	 	vertical-align: middle;
    	}
+
+   	&:hover{
+   		cursor: default;
+   	}
+
 }

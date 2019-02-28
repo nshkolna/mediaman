@@ -49,7 +49,9 @@ gulp.task('js', function() {
             'node_modules/jquery/dist/jquery.min.js',
             'node_modules/bootstrap/dist/js/bootstrap.min.js',
             'source/js/init.js',
+            'source/js/main.js',
             'source/js/validation.js',
+            'source/js/navigation.js',
         ])
         .pipe(sourcemaps.init())
         .pipe(concat('main.min.js'))
