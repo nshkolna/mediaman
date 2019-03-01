@@ -1,7 +1,7 @@
 .posts{
 
 	padding: 20px 0 30px 0;
-	margin-bottom:30px;
+	margin-bottom:15px;
 	@include line();
 
 	&__content{
@@ -45,7 +45,6 @@
 		font-family: $ff-main;
 		font-size: 0.8125rem;
 		color: #4e5c60;
-		line-height: 1.2rem;
 	}
 
 	&__tags{

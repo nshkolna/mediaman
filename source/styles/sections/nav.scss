@@ -7,7 +7,6 @@
 		color: #696e6e;
 		display: inline-block;
 		margin-left:20px;
-		border-bottom: 2px solid transparent;
 
 		transition: 0.3s;	
 
@@ -16,9 +15,7 @@
 		}
 
 		&:hover{
-		
 			color:#1eaac3;
-			border-bottom: 2px solid #1eaac3;
 		}
 	}
 }

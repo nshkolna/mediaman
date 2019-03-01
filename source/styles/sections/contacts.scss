@@ -1,6 +1,11 @@
 .contacts{
 	float: right;	
+	.facebook-icon .contact__icon{
+		width: 27px;
+		padding-left:9px;
+	}
 }
+
 .email-icon:hover .contact__icon{
 	background-color: #83e1f5;
 }
@@ -11,7 +16,7 @@
 	&__icon{
 		background: #b6bbbb;
 		color:#fff;
-		font-size:1.25rem;
+		font-size:0.8125rem;
 		border-radius: 50%;
 		padding:7px;
 		margin-left: 5px;
@@ -43,8 +48,8 @@
 
 .facebook-icon{
 	.contact__icon{
-		width: 35px;
-		padding-left:11px;
+		width: 15px;
+		padding-left:9px;
 	}
 }
 
@@ -53,7 +58,6 @@
 	width: 40px;
 	font-size: 1.5rem;
     text-align: center;
-    padding-top: 8px;
 }
 
 .info__bottom .facebook-icon .contact__icon{
@@ -61,11 +65,11 @@
 }
 
 .fa.fa-mobile{
-	padding-top:4px;
+	padding-top:6px;
 	background-color: #3fc2d9;
 
 	&:before{
-		font-size: 2.2rem;
+		font-size: 2rem;
    	 	vertical-align: middle;
    	}
 

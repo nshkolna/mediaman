@@ -3,6 +3,6 @@ nav.nav
 	- var dataItems = ['about', 'portfolio', 'laboratory']
 		each item, key in items
 			if key == 0
-				a.nav__link.nav__link--active(href=item.url data-link=dataItems[key])= item.name
+				a.nav__link.nav__link--active(href="#" data-link=dataItems[key])= item.name
 			else
-				a.nav__link(href=item.url data-link=dataItems[key])= item.name
+				a.nav__link(href="#" data-link=dataItems[key])= item.name
