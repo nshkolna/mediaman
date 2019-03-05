@@ -1,4 +1,11 @@
+.carousel.pointer-event{
+	@media (max-width: 940px){
+		width: 100%;
+	}
+}
 .carousel__container{
+	@include for-phone-only{display: none;}
+	
 	position:relative;
 	min-height: 325px;
 }
@@ -14,14 +21,14 @@
 	&-item h5{
 		font-family:$ff-slide-title;
 		font-size: 1.5rem;
-		color:#1eaac3;
+		color:$color-link;
 
 	}
 
 	&-item p{
 		font-family: $ff-slide-desc;
 		font-size: 1rem;
-		color: #696e6e;
+		color:$color-main;
 	}
 
 	&-indicators{

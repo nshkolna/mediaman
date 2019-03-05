@@ -21,3 +21,7 @@
   border-bottom:1px solid #c8c8c8;
   box-shadow: 0 1px 0 #fff;
 }
+
+@mixin for-phone-only{
+  @media (max-width: 599px) { @content; }
+}

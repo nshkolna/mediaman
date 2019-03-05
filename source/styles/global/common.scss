@@ -1,7 +1,7 @@
 .container {
-  max-width: 940px;
-  margin: 0 auto;
-  padding:0;
+	max-width: 940px;
+	margin: 0 auto;
+	padding:0;
 }
 
 .is-hidden {
@@ -11,4 +11,34 @@
 .visually-hidden {
   text-indent: -9999px;
   font-size: 0;
+}
+
+@media (min-width:941px){
+	.d-block-940{
+		display: block!important;
+	}
+}
+
+@media (max-width:940px){
+	.d-none-940{
+		display: none!important;
+	}
+}
+
+@media (max-width:810px){
+	.d-none-810{
+		display: none!important;
+	}
+}
+
+@media (max-width:645px){
+	.d-none-645{
+		display: none!important;
+	}
+}
+
+@media (max-width:710px){
+	.d-none-710{
+		display: none!important;
+	}
 }

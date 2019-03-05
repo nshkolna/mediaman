@@ -1,21 +1,19 @@
 .nav{
-
-
 	&__link{
 		font-family: $ff-header-menu;
 		font-size: 1rem;
-		color: #696e6e;
+		color: $color-menu;
 		display: inline-block;
 		margin-left:20px;
 
 		transition: 0.3s;	
 
 		&--active{
-			color:#0e96b8;
+			color:$color-menu-active;
 		}
 
 		&:hover{
-			color:#1eaac3;
+			color:$color-menu-hover;
 		}
 	}
 }

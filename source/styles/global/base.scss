@@ -3,6 +3,10 @@ body {
   font-size: 1rem;
   line-height: 1.2rem;
   background: url(../images/main-bg.gif);
+
+  @media (max-width: 940px){
+    margin:0 10px;
+  }
 }
 
 html {
@@ -24,12 +28,13 @@ ol {
 
 a{
   text-decoration: none;
-  color:#1eaac3;
+  color:$color-link;
 }
 
 a:hover{
   text-decoration: none;
   cursor: pointer;
+  color:$color-link-hover;
 }
 
 .clearfix {
@@ -44,6 +49,6 @@ a:hover{
 h1{
   font-family: $ff-h1;
   font-size: 33px;
-  color:#0084a4;
+  color:$color-h1;
   text-shadow: 1px 1px 1px #fbfbfb;
 }

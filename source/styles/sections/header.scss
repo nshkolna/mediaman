@@ -2,12 +2,16 @@
 
 	margin: 30px 0 5px;
 
+	@include for-phone-only{margin-top:15px;}
+
 	.container{
 		display: flex;
 		flex-direction: row;
 		flex-wrap: nowrap;
 		justify-content: space-between;
 		padding-bottom: 30px;
+
+		@include for-phone-only{padding-bottom: 10px;}
 		@include line();
 	}
 
@@ -33,16 +37,23 @@
 	display: flex;
 	border-right: 1px solid #fff;
 	padding: 10px 20px 10px 0;
+
+	@media (max-width:830px){
+		display: none!important;
+	}
 }
 .name{
+	@include for-phone-only{ display: none; }
+
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
 	padding-left:20px;
-	
+
 	&__company{
 		font-family: $ff-name-company;
 		font-size: 2.0625rem;
-		color:#607278;
+		color:$color-company-name;
 		text-shadow: 2px 2px 1px #fff;
 		padding-top: 4px;
 	}
@@ -50,8 +61,9 @@
 	&__slogan{
 		font-family: $ff-name-slogan;
 		font-size: 1rem;
-		color:#1eaac3;
+		color:$color-slogan;
 		text-shadow: 1px 1px 1px #fff;
+		padding-top: 10px;
 	}
 	
 }

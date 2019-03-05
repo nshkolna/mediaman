@@ -1,20 +1,33 @@
 // Fonts
 $ff-main: 'tahoma';
-$ff-main-bold: 'helvatica-neue-bold';
-$ff-main-light: 'helvetica-neue-light';
-$ff-steps: 'georgia-bold';
+
 $ff-name-company: 'myriad-pro-light';
-$ff-name-slogan: 'tahoma';
-$ff-header-menu: 'tahoma';
-$ff-slide-title: 'tahoma';
-$ff-slide-desc: 'tahoma';
+$ff-name-slogan: $ff-main;
+
+$ff-header-menu: $ff-main;
+
+$ff-slide-title: $ff-main;
+$ff-slide-desc: $ff-main;
+
 $ff-h1: 'myriad-pro-light';
+$color-h1:#0084a4;
 
 $color-main: #4e5c60;
+
+$color-company-name:#607278;
+$color-slogan:#1eaac3;
+
 $color-contact-hover: #0e96b8;
+
+$color-menu:#696e6e;
+$color-menu-active:#0e96b8;
+$color-menu-hover:##1eaac3;
+
+$color-link:#0e96b8;
+$color-link-hover:#1eaac3;
+
 
 $ff-info-title: 'myriad-pro-regular';
 $color-info-title: #0e96b8;
-
 $color-info-desc: #4e5c60;
 

@@ -4,38 +4,65 @@
 	margin-bottom:15px;
 	@include line();
 
+	@include for-phone-only{
+		padding:10px 0;
+		margin-bottom: 10px;
+	}
+
 	&__content{
 		display: flex;
 		flex-direction: row;
 		justify-content: space-between;
 		margin-top: 15px;
+
+		@include for-phone-only{
+			flex-direction: column;
+			margin-top: 5px;
+		}
 	}
 
 	h1{
 		display: inline-block;
+		@include for-phone-only{margin-bottom:0;}
 	}
 }
+
 .post{
 	display: flex;
 	flex-direction: column;
-	flex: 0 1 300px;
+	flex: 0 1 30%;
+
+	@include for-phone-only{
+		flex: 0 1 100%;
+	}
+
 
 	&__image{
-		border: 1px solid #d2d4d4;
-		width: 300px;
+
+		@include for-phone-only{display:none;}
+
+		width: 100%;
+
+		img{
+			border: 1px solid #d2d4d4;
+			max-width: 100%;
+			height: auto;
+		}
 	}
 
 	&__title{
 		padding-top:15px;
+
+		@include for-phone-only{padding-top:10px;}
 		
 		&--link{
 			font-family: $ff-main;
 			font-size: 1rem;
-			color: #0084a4;
+			color:$color-link;
 			text-shadow: 1px 1px 1px #fff;
 
 			&:hover{
-				color:#0084a4;
+				color:$color-link;
 				text-decoration: underline;
 			}
 		}
@@ -44,7 +71,8 @@
 	&__text{
 		font-family: $ff-main;
 		font-size: 0.8125rem;
-		color: #4e5c60;
+		color: $color-main;
+		text-align:justify;
 	}
 
 	&__tags{

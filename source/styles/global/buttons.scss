@@ -5,6 +5,7 @@
 	display: inline-block;
 
 	&--main{
+		@include for-phone-only{display: none;}
 		width: 105px;
 		height: 30px;
 		border-radius: 3px;

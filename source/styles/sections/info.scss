@@ -4,7 +4,15 @@
 	flex-wrap: wrap;
 	margin-bottom:13px;
 
+	@include for-phone-only{
+		padding:5px 0 10px 0;
+		margin-bottom: 0;
+		@include line();
+	}
+
 	&__left-img{
+		@include for-phone-only{display: none;}
+
 		padding:0 20px 0 0;
 	}
 
@@ -13,6 +21,8 @@
 		flex-direction: row;
 		justify-content: space-between;
 		flex:0 1 50%;
+
+		@include for-phone-only{flex:0 1 100%;}
 	}
 
 	&__left{
@@ -22,6 +32,11 @@
 
 	&__right{
 		padding-left:20px;
+
+		@include for-phone-only{
+			padding:10px 0 0 0;
+
+		}
 	}
 
 	&-text h3{
@@ -38,6 +53,8 @@
 
 	
 	&__bottom{
+		@media (max-width:767px){display:none;} 
+		
 		display: flex;
 		flex-direction: row;
 		width: 100%;

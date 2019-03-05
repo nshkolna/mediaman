@@ -2,6 +2,26 @@
 section.clients.container
 	h1 Clients
 	.client__content
-		each item in img
-			.client
-				a(hfer="#"): img(src="images/clients/"+item+".png" alt="picture")
+		each item, index in img
+			if index == 6
+				.client.d-none-645
+					a(hfer="#"): img(src="images/clients/"+item+".png" alt="picture")
+			else if index == 7
+				.client.d-none-645
+					a(hfer="#"): img(src="images/clients/"+item+".png" alt="picture")
+			else if index == 8
+				.client.d-none-645.d-none-810
+					a(hfer="#"): img(src="images/clients/"+item+".png" alt="picture")
+
+			else if index == 9
+				.client.d-none-810
+					a(hfer="#"): img(src="images/clients/"+item+".png" alt="picture")
+			else if index < 10	
+				.client
+					a(hfer="#"): img(src="images/clients/"+item+".png" alt="picture")
+			else
+				.client.d-none-940
+					a(hfer="#"): img(src="images/clients/"+item+".png" alt="picture")
+		
+					
+
